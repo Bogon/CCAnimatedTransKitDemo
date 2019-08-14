@@ -1,0 +1,6 @@
+framework module CCAnimatedTransKit {
+  umbrella header "CCAnimatedTransKit-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -7,14 +7,13 @@
 //
 
 import UIKit
-import CCAnimatedTransitioningKit
+import CCAnimatedTransKit
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
-        self.setNaviagtionBarStyle()
     }
 
     override func didReceiveMemoryWarning() {
@@ -24,3 +23,7 @@ class ViewController: UIViewController {
 
 }
 
+
+class ReadController: CCATKBaseViewController {
+    
+}

@@ -7,7 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		04FD35D02303EAA9003323B5 /* CCAnimatedTransitioningKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04FD35CF2303EAA9003323B5 /* CCAnimatedTransitioningKit.framework */; };
+		04FD360F230406C4003323B5 /* CCATKReadingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FD360E230406C4003323B5 /* CCATKReadingViewController.swift */; };
+		04FD36112304097A003323B5 /* CCATKButtonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FD36102304097A003323B5 /* CCATKButtonViewController.swift */; };
+		04FD361323040ABB003323B5 /* CCATKMainTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FD361223040ABB003323B5 /* CCATKMainTableViewController.swift */; };
 		0826C65954D0EEC2D8A2F907 /* Pods_CCAnimatedTransitioningKit_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ADF865033C8211A6BBED454A /* Pods_CCAnimatedTransitioningKit_Example.framework */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
 		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
@@ -31,6 +33,9 @@
 /* Begin PBXFileReference section */
 		02E62D0503FD8B0CEBB4A8E5 /* CCAnimatedTransitioningKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = CCAnimatedTransitioningKit.podspec; path = ../CCAnimatedTransitioningKit.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		04FD35CF2303EAA9003323B5 /* CCAnimatedTransitioningKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = CCAnimatedTransitioningKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		04FD360E230406C4003323B5 /* CCATKReadingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CCATKReadingViewController.swift; sourceTree = "<group>"; };
+		04FD36102304097A003323B5 /* CCATKButtonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CCATKButtonViewController.swift; sourceTree = "<group>"; };
+		04FD361223040ABB003323B5 /* CCATKMainTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CCATKMainTableViewController.swift; sourceTree = "<group>"; };
 		0F89EDABF5EBC5D0701BEA94 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		1FE03DF4A71BABF1FE1A7C18 /* Pods-CCAnimatedTransitioningKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CCAnimatedTransitioningKit_Tests.release.xcconfig"; path = "Target Support Files/Pods-CCAnimatedTransitioningKit_Tests/Pods-CCAnimatedTransitioningKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		25BF712F5A825C42056D91A4 /* Pods_CCAnimatedTransitioningKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CCAnimatedTransitioningKit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -56,7 +61,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				04FD35D02303EAA9003323B5 /* CCAnimatedTransitioningKit.framework in Frameworks */,
 				0826C65954D0EEC2D8A2F907 /* Pods_CCAnimatedTransitioningKit_Example.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -119,6 +123,9 @@
 			children = (
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
 				607FACD71AFB9204008FA782 /* ViewController.swift */,
+				04FD360E230406C4003323B5 /* CCATKReadingViewController.swift */,
+				04FD36102304097A003323B5 /* CCATKButtonViewController.swift */,
+				04FD361223040ABB003323B5 /* CCATKMainTableViewController.swift */,
 				607FACD91AFB9204008FA782 /* Main.storyboard */,
 				607FACDC1AFB9204008FA782 /* Images.xcassets */,
 				607FACDE1AFB9204008FA782 /* LaunchScreen.xib */,
@@ -275,11 +282,11 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-CCAnimatedTransitioningKit_Example/Pods-CCAnimatedTransitioningKit_Example-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/CCAnimatedTransitioningKit/CCAnimatedTransitioningKit.framework",
+				"${BUILT_PRODUCTS_DIR}/CCAnimatedTransKit/CCAnimatedTransKit.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CCAnimatedTransitioningKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CCAnimatedTransKit.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -338,7 +345,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
+				04FD361323040ABB003323B5 /* CCATKMainTableViewController.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
+				04FD360F230406C4003323B5 /* CCATKReadingViewController.swift in Sources */,
+				04FD36112304097A003323B5 /* CCATKButtonViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

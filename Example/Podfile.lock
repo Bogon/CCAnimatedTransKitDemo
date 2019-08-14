@@ -1,15 +1,22 @@
 PODS:
-  - CCAnimatedTransitioningKit (0.1.1)
+  - CCAnimatedTransitioningKit (0.1.1):
+    - CCAnimatedTransKit
+  - CCAnimatedTransKit (1.0.0)
 
 DEPENDENCIES:
   - CCAnimatedTransitioningKit (from `../`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - CCAnimatedTransKit
 
 EXTERNAL SOURCES:
   CCAnimatedTransitioningKit:
     :path: "../"
 
 SPEC CHECKSUMS:
-  CCAnimatedTransitioningKit: 981f1c736e21333ac42da6e1ac26ed08656ff64a
+  CCAnimatedTransitioningKit: 4003abb8c8bf5768204add2ae1713afdf36ca62d
+  CCAnimatedTransKit: 51eddb979ca7a21cb3cff382176879492af93971
 
 PODFILE CHECKSUM: 05312a841cb6facedc9ba0e4c35ef0f659e77666
 
