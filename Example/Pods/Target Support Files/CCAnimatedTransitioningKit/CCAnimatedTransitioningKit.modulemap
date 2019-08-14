@@ -1,0 +1,6 @@
+framework module CCAnimatedTransitioningKit {
+  umbrella header "CCAnimatedTransitioningKit-umbrella.h"
+
+  export *
+  module * { export * }
+}

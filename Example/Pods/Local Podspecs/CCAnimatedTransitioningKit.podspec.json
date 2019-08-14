@@ -1,0 +1,25 @@
+{
+  "name": "CCAnimatedTransitioningKit",
+  "version": "0.1.1",
+  "summary": "CCAnimatedTransitioningKit is used to private animate template for opening book animation.",
+  "swift_versions": "4.0",
+  "description": "CCAnimatedTransitioningKit is used to private animate template for opening book animation. CCAnimatedTransitioningKit 用于提供书籍打开类APP的数据打开动画，该动画提供了完整的动画结构，方便扩展和使用。",
+  "homepage": "https://github.com/Bogon/CCAnimatedTransitioningKit",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Bogon": "zhangqixcu@gmail.com.com"
+  },
+  "source": {
+    "git": "https://github.com/Bogon/CCAnimatedTransitioningKit.git",
+    "tag": "0.1.1"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "requires_arc": true,
+  "source_files": "CCAnimatedTransitioningKit/Classes/**/*",
+  "swift_version": "4.0"
+}

@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'CCAnimatedTransitioningKit_Example' do
+  pod 'CCAnimatedTransitioningKit', :path => '../'
+
+  target 'CCAnimatedTransitioningKit_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

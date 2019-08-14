@@ -1,0 +1,16 @@
+PODS:
+  - CCAnimatedTransitioningKit (0.1.1)
+
+DEPENDENCIES:
+  - CCAnimatedTransitioningKit (from `../`)
+
+EXTERNAL SOURCES:
+  CCAnimatedTransitioningKit:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  CCAnimatedTransitioningKit: 981f1c736e21333ac42da6e1ac26ed08656ff64a
+
+PODFILE CHECKSUM: 05312a841cb6facedc9ba0e4c35ef0f659e77666
+
+COCOAPODS: 1.7.4
