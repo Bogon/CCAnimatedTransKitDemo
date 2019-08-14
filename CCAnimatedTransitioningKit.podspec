@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'CCAnimatedTransitioningKit'
-  s.version          = '1.1.1'
+  s.version          = '1.1.2'
   s.summary          = 'CCAnimatedTransitioningKit is used to private animate template for opening book animation. Demo'
   s.swift_version    = '4.0'
   
